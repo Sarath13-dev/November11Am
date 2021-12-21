@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Validation of Facebook with correct Username and correct password",
+        "description": "",
+        "id": "validation-of-facebook;validation-of-facebook-with-correct-username-and-correct-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32937123242,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should be launch in Facebook page",
+            "match": {
+              "location": "StepDefinitionClass.user_should_be_launch_in_Facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 318745667,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the \"ramsss\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramsss\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitionClass.user_enters_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78152062,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "StepDefinitionClass.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4616654889,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User checks that logeed into home page or not",
+            "match": {
+              "location": "StepDefinitionClass.user_checks_that_logeed_into_home_page_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Facebook",
+    "description": "",
+    "id": "validation-of-facebook",
+    "keyword": "Feature",
+    "uri": "C:/Users/RAM SARATH KUMAR/eclipse-workspace/Cucumber6PmDecember/src/test/resources/Features/FacebookLogin.feature",
+    "tags": []
+  }
+]
