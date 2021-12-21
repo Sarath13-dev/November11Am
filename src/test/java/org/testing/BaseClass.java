@@ -14,6 +14,7 @@ public class BaseClass {
 	
 	public static void launchBrowser(String url) {
 		WebDriverManager.chromedriver().setup();
+		System.out.println("test work carried out by Dev");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(url);
