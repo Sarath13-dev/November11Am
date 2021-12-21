@@ -14,6 +14,7 @@ public class BaseClass {
 	
 	public static void launchBrowser(String url) {
 		WebDriverManager.chromedriver().setup();
+		System.out.println("work done by perf");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(url);
